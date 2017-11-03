@@ -1,0 +1,24 @@
+{
+  "author": "Johan Guttormsson <johan@jgsoft.nl>",
+  "name": "restify-cache-headers",
+  "version": "1.0.0",
+  "description": "Add ETag and Last-Modified headers to Restify API's",
+  "main": "index.js",
+  "keywords": [
+    "restify",
+    "etag",
+    "headers",
+    "middleware"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johangu/restify-cache-headers.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "etag": "1.8.1"
+  },
+  "peerDependencies": {
+    "restify": "5.x - 6.x"
+  }
+}
